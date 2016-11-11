@@ -227,7 +227,10 @@ header h1 {
 .blog-logo img {
 	width: 120px;
 	margin-top: -20px;
+	border: 2px solid #6491b2; 
+	border-radius: 25px;
 }
+
 .user-data {
 	float: left;
 }
@@ -1196,14 +1199,4 @@ form.search button {
 
 #results a:hover {
 	color: #fff;
-}
-
-.twitter-timeline a {
-	color: #6491b2;
-	text-decoration: none;
-}
-
-.tw-logo {
-	border: 1px solid #6491b2; 
-	border-radius: 25px;"
 }
