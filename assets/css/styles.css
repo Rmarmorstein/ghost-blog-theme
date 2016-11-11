@@ -1197,3 +1197,8 @@ form.search button {
 #results a:hover {
 	color: #fff;
 }
+
+.twitter-timeline a {
+	color: #6491b2;
+	text-decoration: none;
+}
