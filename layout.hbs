@@ -33,23 +33,20 @@
     
 
       <h1 class="blog-logo">
-        <img src="//pbs.twimg.com/profile_images/792778429586247680/LuCKdSup_400x400.jpg" style="border: 2px solid #6491b2; border-radius: 25px;" />
-        
-        <!-- {{#if @blog.logo}}
-          <a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
-        {{else}}
-          <a href="{{@blog.url}}">{{@blog.title}}</a>
-        {{/if}} 
-      </h1> --!>
+
+          <img src="//pbs.twimg.com/profile_images/792778429586247680/LuCKdSup_400x400.jpg" style="border: 2px solid #6491b2; border-radius: 25px;" />
+
+          {{!-- {{#if @blog.logo}} {{/if}}<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a> {{else}} <a href="{{@blog.url}}">{{@blog.title}}</a> {{/if}} --}}
+      </h1>
       
       <p>{{@blog.description}}</p>
       
-      //class="blog-desc"
+      {{!-- class="blog-desc" --}}
 
       {{navigation}}
 
       <div class="sidebar">
-      <!--
+      {{!--
         <div class="display form">
           <form class="search" method="POST" action="#">
             <input id="search-field" type="text" name="search" value="" placeholder="Search..."/>
@@ -65,7 +62,7 @@
               <a href="{{url}}">{{name}}</a>
             {{/foreach}}
           {{/get}}
-        </div> --!>
+        </div> --}}
         
         <div class="display">
         <a href="https://twitter.com/intent/tweet?screen_name=Rmarmorstein" class="twitter-mention-button" data-show-count="false">Tweet to River</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -75,7 +72,7 @@
           
         </div>
         
-        <!-- Comment out
+        {{!-- Comment out
         <div class="display socials">
           <h5 class="sidebar-title">Socials</h5>
           <a href="#" class="sb-email" id="B_email" target="_blank" alt="Email"><i class="fa fa-envelope"></i></a>
@@ -90,7 +87,7 @@
           <a href="#" class="sb-yahoo" id="B_yahoo" target="_blank" alt="Yahoo"><i class="fa fa-yahoo"></i></a>
           <a href="#" class="sb-youtube" id="B_youtube" target="_blank" alt="YouTube"><i class="fa fa-youtube"></i></a>
         </div>
-        --!>
+        --}}
       </div>
 
     </header>
@@ -98,11 +95,11 @@
 
 
     {{{body}}}
-<!-- commenting out for testing purposes
+{{!-- commenting out for testing purposes
     <footer>
       <p><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}. All rights reserved</p>
       <p><small>Proudly published with <a href="https://ghost.org" target="_blank">Ghost</a> | Theme by <a href="https://github.com/yusza" target="_blank">M Yusza Mahardika</a></small></p>
-    </footer> --!>
+    </footer> --}}
   </div>
 
   <script type="text/javascript" src="{{asset "js/scale.fix.js"}}"></script>
